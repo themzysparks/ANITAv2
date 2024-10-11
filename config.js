@@ -12,14 +12,14 @@ global.sudo = process.env.SUDO
   : "null";
 global.owner = process.env.OWNER_NUMBER
   ? process.env.OWNER_NUMBER.replace(/[\s+]/g, "")
-  : "27717311486";
+  : "2349130815781";
 global.THUMB_IMAGE =
   process.env.THUMB_IMAGE ||
   process.env.IMAGE ||
-  "https://raw.githubusercontent.com/coderxsa/WABot/main/ANITA/PIC/anita.jpg";
+  "https://raw.githubusercontent.com/themzysparks/ANITAv2/refs/heads/main/lib/fuBX5UQ.jpeg";
 global.userImages =
   process.env.USER_IMAGES ||
-  "https://raw.githubusercontent.com/coderxsa/WABot/main/ANITA/PIC/anita.jpg";
+  "https://raw.githubusercontent.com/themzysparks/ANITAv2/refs/heads/main/lib/fuBX5UQ.jpeg";
 ///===========[global iMPORTS]====================//
 
 module.exports = {
