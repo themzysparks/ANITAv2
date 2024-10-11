@@ -1,4 +1,4 @@
-FROM node: 18
+FROM node:18
 RUN git clone https://github.com/themzysparks/ANITAv2 /root/coderxsa
 WORKDIR /root/coderxsa
 RUN npm install 
