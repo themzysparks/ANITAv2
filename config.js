@@ -27,12 +27,12 @@ module.exports = {
   HANDLERS: process.env.PREFIX || "!",
   BRANCH: process.env.BRANCH || "main",
   VERSION: process.env.VERSION || "2.0.4",
-  caption: process.env.CAPTION || "`©ANITA`",
-  author: process.env.PACK_AUTHER || "ANITA",
-  packname: process.env.PACK_NAME || "A N I T A",
-  botname: process.env.BOT_NAME || "ANITA",
-  ownername: process.env.OWNER_NAME || "CODERX",
-  errorChat: process.env.ERROR_CHAT || "",
+  caption: process.env.CAPTION || "`©SPARKS©`",
+  author: process.env.PACK_AUTHER || "SPARKS",
+  packname: process.env.PACK_NAME || "S P A R K S",
+  botname: process.env.BOT_NAME || "SPARKSBOT",
+  ownername: process.env.OWNER_NAME || "SPARKS 💕",
+  errorChat: process.env.ERROR_CHAT || "true",
   KOYEB_API: process.env.KOYEB_API || "false",
   REMOVE_BG_KEY: process.env.REMOVE_BG_KEY || "",
   OPENAI_API_KEY: process.env.OPENAI_API_KEY || "",
@@ -42,20 +42,20 @@ module.exports = {
   HEROKU: process.env.HEROKU_APP_NAME && process.env.HEROKU_API_KEY,
   aitts_Voice_Id: process.env.AITTS_ID || "37",
   ELEVENLAB_API_KEY: process.env.ELEVENLAB_API_KEY || "",
-  WORKTYPE: process.env.WORKTYPE || process.env.MODE || "public",
+  WORKTYPE: process.env.WORKTYPE || process.env.MODE || "private",
   LANG: (process.env.THEME || "WhatsApp").toUpperCase(),
 };
 global.port = process.env.PORT;
 global.appUrl = process.env.APP_URL || "";
-global.email = "";
-global.location = "";
+global.email = "themmydee24@gmail.com";
+global.location = "Nigeria";
 global.allowJids = process.env.ALLOW_JID || "null";
 global.blockJids = process.env.BLOCK_JID || "null";
-global.timezone = process.env.TZ || process.env.TIME_ZONE || "Africa/Johannesburg";
-global.github = process.env.GITHUB || "https://github.com/coderxsa/ANITAv2";
+global.timezone = process.env.TZ || process.env.TIME_ZONE || "Africa/Lagos";
+global.github = process.env.GITHUB || "https://github.com/themzysparks/ANITAv2";
 global.gurl = process.env.GURL || "";
 global.website = process.env.GURL || "";
-global.devs = "27717311486";
+global.devs = "2349130815781";
 global.msg_style = process.env.STYLE || "4";
 global.session_reset = process.env.SS_RESET || "false";
 global.gdbye = process.env.GOODBYE || "false";
